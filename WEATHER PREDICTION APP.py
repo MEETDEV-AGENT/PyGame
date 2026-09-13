@@ -12,7 +12,7 @@ from tkinter import messagebox
 # Configuration & Environment
 # ==========================================
 load_dotenv()
-API_KEY = os.getenv("OPENWEATHER_API_KEY", "5ffc3e0ddd2162d71d3123e19373de50")
+API_KEY = os.getenv("OPENWEATHER_API_KEY", "YOUR_API_KEY")
 GEO_IP_URL = "http://ip-api.com/json/"
 
 # Set CustomTkinter to Dark Mode
